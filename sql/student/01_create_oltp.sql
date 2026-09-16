@@ -116,3 +116,51 @@ ALTER TABLE "core"."order_items" ADD FOREIGN KEY ("order_id") REFERENCES "core".
 ALTER TABLE "core"."order_items" ADD FOREIGN KEY ("product_id") REFERENCES "core"."products" ("product_id") DEFERRABLE INITIALLY IMMEDIATE;
 
 ALTER TABLE "core"."payments" ADD FOREIGN KEY ("order_id") REFERENCES "core"."orders" ("order_id") DEFERRABLE INITIALLY IMMEDIATE;
+-- 1. CHECK: order_date không được ở tương lai
+ALTER TABLE core.orders
+ADD CONSTRAINT check_order_date
+CHECK (order_date <= NOW());
+
+
+-- 2. CHECK: payment amount không được âm
+ALTER TABLE core.payments
+ADD CONSTRAINT check_payment_amount
+CHECK (amount >= 0);
+
+
+-- 3. CHECK: order item quantity phải lớn hơn 0
+ALTER TABLE core.order_items
+ADD CONSTRAINT check_order_item_quantity
+CHECK (quantity > 0);
+
+
+-- 4. DEFAULT cho audit fields
+ALTER TABLE core.customers
+ALTER COLUMN created_at SET DEFAULT NOW();
+
+ALTER TABLE core.customers
+ALTER COLUMN updated_at SET DEFAULT NOW();
+
+ALTER TABLE core.products
+ALTER COLUMN created_at SET DEFAULT NOW();
+
+ALTER TABLE core.products
+ALTER COLUMN updated_at SET DEFAULT NOW();
+
+ALTER TABLE core.orders
+ALTER COLUMN created_at SET DEFAULT NOW();
+
+ALTER TABLE core.orders
+ALTER COLUMN updated_at SET DEFAULT NOW();
+
+ALTER TABLE core.order_items
+ALTER COLUMN created_at SET DEFAULT NOW();
+
+ALTER TABLE core.order_items
+ALTER COLUMN updated_at SET DEFAULT NOW();
+
+ALTER TABLE core.payments
+ALTER COLUMN created_at SET DEFAULT NOW();
+
+ALTER TABLE core.payments
+ALTER COLUMN updated_at SET DEFAULT NOW();
