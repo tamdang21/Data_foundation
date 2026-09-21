@@ -1,0 +1,996 @@
+|customer_id|full_name               |avg_order            |
+|-----------|------------------------|---------------------|
+|CUS000260  |Kathleen Gonzalez       |15,041,333.3333333333|
+|CUS000024  |Ethan Baker             |10,537,250           |
+|CUS000571  |Michele Morris          |9,624,500            |
+|CUS000919  |Melissa Sullivan        |15,005,200           |
+|CUS000439  |Christian Mitchell      |17,556,214.2857142857|
+|CUS000494  |Kirk Martinez           |15,167,583.3333333333|
+|CUS000633  |Natalie Wagner          |11,527,833.3333333333|
+|CUS000390  |Jason Murphy            |13,959,100           |
+|CUS000589  |Kimberly Jones          |11,037,000           |
+|CUS000338  |Amber Cook              |11,797,125           |
+|CUS000257  |Megan Lawrence          |11,170,200           |
+|CUS000087  |Richard Hawkins         |21,125,875           |
+|CUS000131  |Marvin Rodriguez        |11,042,071.4285714286|
+|CUS000973  |Connor Patel            |9,895,625            |
+|CUS000361  |Sarah Ramirez           |18,091,000           |
+|CUS000781  |Nathan Rodriguez        |13,117,375           |
+|CUS000196  |Christopher Cochran     |15,638,333.3333333333|
+|CUS000911  |Jennifer Kennedy DVM    |7,836,875            |
+|CUS000610  |Douglas Gillespie       |8,386,833.3333333333 |
+|CUS000416  |Lance Downs             |10,788,416.6666666667|
+|CUS000097  |Joshua Hill             |3,020,000            |
+|CUS000463  |Paul Pollard            |10,694,333.3333333333|
+|CUS000290  |Thomas Hickman          |15,968,312.5         |
+|CUS000808  |Lawrence Stafford       |13,515,600           |
+|CUS000334  |Jeffrey Ruiz            |11,844,000           |
+|CUS000414  |Danielle Parker         |11,149,000           |
+|CUS000124  |Alexander Baker         |6,263,500            |
+|CUS000798  |Jessica Young           |10,442,100           |
+|CUS000600  |Debra Cole              |10,195,500           |
+|CUS000398  |Lori Townsend           |10,111,937.5         |
+|CUS000125  |Cindy Steele            |17,046,375           |
+|CUS000329  |Janet Jenkins           |10,959,928.5714285714|
+|CUS000884  |Teresa Anderson         |3,511,000            |
+|CUS000229  |John Gonzalez           |15,277,400           |
+|CUS000245  |Mr. Jason Vaughan       |12,528,200           |
+|CUS000442  |Kevin Johnson           |8,898,000            |
+|CUS000570  |Christopher Flynn       |10,450,812.5         |
+|CUS000249  |Alec Lewis              |17,629,375           |
+|CUS000607  |Gary Butler             |19,306,000           |
+|CUS000493  |Theresa Holmes          |9,881,750            |
+|CUS000923  |Michael Stewart         |11,221,500           |
+|CUS000620  |Hannah Santiago         |10,772,166.6666666667|
+|CUS000662  |Glen Harrison           |16,505,500           |
+|CUS000786  |Kristy Scott            |11,169,961.5384615385|
+|CUS000477  |Scott Osborne           |9,509,833.3333333333 |
+|CUS000078  |John Steele             |9,117,200            |
+|CUS000147  |Mikayla Gardner         |13,412,375           |
+|CUS000695  |Lisa Gross              |8,392,285.7142857143 |
+|CUS000680  |Alexander Mcclain       |6,158,500            |
+|CUS000542  |Patty Contreras         |14,047,312.5         |
+|CUS000901  |Lisa Cole               |17,388,250           |
+|CUS000952  |Christopher Ortiz       |7,248,625            |
+|CUS000613  |Robert Cooley           |12,806,666.6666666667|
+|CUS000796  |Keith Edwards           |13,756,375           |
+|CUS000931  |Adam Tanner             |13,097,083.3333333333|
+|CUS000597  |Amanda Benitez          |8,999,200            |
+|CUS000615  |Benjamin Singleton      |9,926,250            |
+|CUS000292  |Jacqueline Robinson     |8,727,500            |
+|CUS000679  |Jordan Benson           |5,113,666.6666666667 |
+|CUS000732  |Cesar Cochran           |18,474,000           |
+|CUS000747  |Jennifer Smith          |10,007,333.3333333333|
+|CUS000483  |Lori Baldwin            |11,310,625           |
+|CUS000044  |Jacob Sosa              |18,222,666.6666666667|
+|CUS000724  |Mary Choi               |9,445,250            |
+|CUS000841  |John Thompson           |8,610,200            |
+|CUS000924  |Denise Smith            |13,086,833.3333333333|
+|CUS000103  |Alexander Carney        |12,205,750           |
+|CUS000142  |Kenneth Melendez        |9,210,000            |
+|CUS000752  |Katherine Gomez         |12,581,100           |
+|CUS000823  |Brenda Simpson          |7,213,666.6666666667 |
+|CUS000545  |Michael Parrish         |17,304,222.2222222222|
+|CUS000445  |Joseph Norton           |16,588,750           |
+|CUS000966  |Erica Wood              |13,151,277.7777777778|
+|CUS000535  |Adrian Ortiz            |15,169,375           |
+|CUS000406  |Monique Ford            |6,111,000            |
+|CUS000283  |Christopher White       |15,121,250           |
+|CUS000458  |Joseph Valenzuela       |11,440,833.3333333333|
+|CUS000424  |Laura Lynch             |7,693,600            |
+|CUS000949  |Eric Dennis             |7,117,000            |
+|CUS000504  |Wendy Harper            |11,334,750           |
+|CUS000912  |Rachel Jackson          |9,110,625            |
+|CUS000590  |Henry Martin            |7,866,857.1428571429 |
+|CUS000448  |Lisa Gonzalez           |11,242,500           |
+|CUS000020  |Amanda Ibarra           |13,450,333.3333333333|
+|CUS000573  |Alexandra Davenport     |11,404,900           |
+|CUS000391  |Robert Sanchez          |13,070,125           |
+|CUS000566  |Shannon Giles           |12,702,750           |
+|CUS000092  |Morgan Kemp             |12,718,083.3333333333|
+|CUS000959  |Luis Rivera             |15,451,928.5714285714|
+|CUS000041  |Erica Yang              |8,003,277.7777777778 |
+|CUS000430  |Kayla Young             |9,266,333.3333333333 |
+|CUS000003  |Patrick Johnson         |13,421,250           |
+|CUS000939  |Elizabeth Webb          |11,513,500           |
+|CUS000714  |Lisa Bryant             |14,938,700           |
+|CUS000179  |Philip Williams         |16,280,833.3333333333|
+|CUS000895  |Victoria Ayala          |13,050,700           |
+|CUS000972  |Ryan Duncan             |10,326,000           |
+|CUS000485  |Barbara Meza            |9,397,750            |
+|CUS000299  |Samantha Lester         |13,662,100           |
+|CUS000741  |Amber Mays              |8,726,666.6666666667 |
+|CUS000423  |Whitney Love            |7,715,750            |
+|CUS000382  |Samuel Smith            |15,638,250           |
+|CUS000258  |Elizabeth Walton        |7,751,166.6666666667 |
+|CUS000161  |Stacey Gilmore          |10,086,500           |
+|CUS000601  |Christopher Gutierrez   |13,487,800           |
+|CUS000717  |Tiffany Crawford        |7,372,666.6666666667 |
+|CUS000657  |Tanner Green            |8,864,500            |
+|CUS000936  |Adam Woodard            |14,438,500           |
+|CUS000347  |Timothy Smith           |17,237,500           |
+|CUS000297  |Alexander Black         |22,207,000           |
+|CUS000810  |Donna Gilbert           |11,554,428.5714285714|
+|CUS000345  |Katelyn Rodriguez       |28,393,500           |
+|CUS000739  |Paul Vargas             |14,219,800           |
+|CUS001000  |Dr. Raymond Robertson MD|15,240,750           |
+|CUS000699  |Zachary Villegas        |16,819,833.3333333333|
+|CUS000812  |Kyle Stevens            |21,736,250           |
+|CUS000203  |Christopher Bass        |11,404,900           |
+|CUS000897  |Beth Johnson            |15,276,000           |
+|CUS000422  |Daniel Roberts          |11,410,650           |
+|CUS000128  |Patrick Lin             |12,746,333.3333333333|
+|CUS000067  |Stephanie Alvarez       |12,559,916.6666666667|
+|CUS000094  |David Marquez           |18,610,250           |
+|CUS000568  |Reginald Austin         |18,819,812.5         |
+|CUS000748  |Andrew Gates            |7,539,500            |
+|CUS000761  |Cody Harris             |10,202,000           |
+|CUS000066  |Allison Parker          |12,682,000           |
+|CUS000898  |Steven Clark            |15,521,437.5         |
+|CUS000198  |Christina Cook          |13,293,900           |
+|CUS000100  |Kevin James             |3,480,833.3333333333 |
+|CUS000788  |Eric Woods              |3,484,750            |
+|CUS000827  |Adam Rodriguez          |13,010,875           |
+|CUS000370  |Jasmine Logan           |16,756,666.6666666667|
+|CUS000815  |Carlos Powers           |9,528,166.6666666667 |
+|CUS000135  |Amanda Weber            |17,712,600           |
+|CUS000457  |Matthew Wilson          |1,170,000            |
+|CUS000531  |Willie Evans            |9,857,909.0909090909 |
+|CUS000902  |David Juarez            |17,642,428.5714285714|
+|CUS000033  |Christine Wright        |9,052,500            |
+|CUS000306  |Tyler Schneider         |8,125,500            |
+|CUS000123  |Victoria Bowman         |12,913,500           |
+|CUS000797  |Cassandra Parker        |12,570,500           |
+|CUS000012  |Marcia Mosley           |12,020,166.6666666667|
+|CUS000956  |Emily Bailey            |19,486,375           |
+|CUS000636  |Gary Martin             |11,482,100           |
+|CUS000868  |Teresa Young            |10,422,416.6666666667|
+|CUS000474  |Robert Gray             |15,347,416.6666666667|
+|CUS000550  |Crystal Park            |15,953,214.2857142857|
+|CUS000071  |Michelle Rivera         |21,363,250           |
+|CUS000870  |Victoria Cervantes      |16,449,187.5         |
+|CUS000050  |Alexandria Gomez        |17,027,333.3333333333|
+|CUS000432  |Thomas Bennett          |6,732,000            |
+|CUS000937  |Kelly Flores            |14,322,333.3333333333|
+|CUS000250  |Gary Montgomery         |8,262,916.6666666667 |
+|CUS000527  |Bobby Sampson           |3,467,750            |
+|CUS000132  |Sarah Ballard           |12,756,571.4285714286|
+|CUS000226  |Anna Carpenter          |18,253,375           |
+|CUS000631  |David Wiggins           |11,660,583.3333333333|
+|CUS000110  |Nichole Fritz           |16,555,357.1428571429|
+|CUS000617  |Jennifer Tanner         |14,069,071.4285714286|
+|CUS000043  |Carrie Freeman          |10,526,666.6666666667|
+|CUS000332  |Dean Lynn               |9,994,214.2857142857 |
+|CUS000061  |Karen Johnson           |8,749,571.4285714286 |
+|CUS000651  |Aaron Bautista          |2,060,000            |
+|CUS000687  |Eileen Garcia           |6,872,750            |
+|CUS000016  |Kimberly Johnson        |15,807,250           |
+|CUS000844  |Benjamin Duran          |8,764,142.8571428571 |
+|CUS000738  |Steven Williams         |8,195,100            |
+|CUS000709  |Jacqueline Taylor       |7,486,500            |
+|CUS000138  |Christopher Fisher      |12,275,500           |
+|CUS000975  |Melissa Barnes          |13,366,100           |
+|CUS000310  |Belinda Stein           |13,235,375           |
+|CUS000381  |Angel Fox               |6,260,400            |
+|CUS000754  |Charles Griffin         |14,039,125           |
+|CUS000807  |Natasha Lee             |6,593,500            |
+|CUS000593  |Michael Porter          |17,073,200           |
+|CUS000826  |Christine Gibbs         |11,114,250           |
+|CUS000828  |Michael Santos          |11,349,409.0909090909|
+|CUS000672  |Richard Palmer          |10,923,333.3333333333|
+|CUS000886  |Lisa Mcconnell          |12,501,666.6666666667|
+|CUS000964  |Tina Harrison           |13,397,250           |
+|CUS000343  |Scott Jackson           |551,000              |
+|CUS000793  |Susan Barber            |9,320,200            |
+|CUS000029  |Dr. Shane Johnson       |13,011,071.4285714286|
+|CUS000008  |Paul Baker              |13,410,250           |
+|CUS000355  |Steve Hatfield          |9,477,214.2857142857 |
+|CUS000340  |Jason Lynch             |23,295,500           |
+|CUS000684  |Crystal Briggs          |11,064,900           |
+|CUS000211  |Stephanie Serrano       |9,805,500            |
+|CUS000227  |Angela Morris           |23,576,875           |
+|CUS000943  |Gregory Murphy          |3,348,375            |
+|CUS000848  |Joshua Bowen            |18,853,750           |
+|CUS000201  |Stacey Fry              |9,724,333.3333333333 |
+|CUS000491  |Kelly Perkins           |22,689,000           |
+|CUS000532  |Jennifer Martinez       |10,148,857.1428571429|
+|CUS000882  |Diane Moore             |13,788,666.6666666667|
+|CUS000954  |Brandi Anderson         |11,584,700           |
+|CUS000244  |Richard Davis           |7,690,250            |
+|CUS000749  |Troy Young              |9,634,833.3333333333 |
+|CUS000419  |Keith Chambers          |10,193,666.6666666667|
+|CUS000418  |Nicholas Frye            |15,428,428.5714285714|
+|CUS000021  |Terry Trevino            |14,476,166.6666666667|
+|CUS000908  |Jason Ashley             |14,993,500           |
+|CUS000718  |William Nguyen           |16,424,900           |
+|CUS000181  |Derek Sandoval           |15,455,166.6666666667|
+|CUS000585  |April Perez              |15,702,250           |
+|CUS000942  |Scott Willis             |15,524,750           |
+|CUS000377  |Katie Stewart            |12,115,555.5555555556|
+|CUS000733  |Daniel Lowe              |13,575,833.3333333333|
+|CUS000090  |Thomas Medina            |15,768,100           |
+|CUS000174  |Michelle Evans           |9,828,750            |
+|CUS000592  |Todd Warner              |12,999,000           |
+|CUS000170  |Brandi Garcia            |8,968,625            |
+|CUS000692  |Sydney Turner            |14,235,625           |
+|CUS000876  |Gary Hancock             |5,591,666.6666666667 |
+|CUS000089  |Randall Kramer           |14,694,055.5555555556|
+|CUS000168  |Taylor Young             |11,196,333.3333333333|
+|CUS000616  |Mary Trujillo            |5,073,000            |
+|CUS000638  |Kevin Holmes DVM         |14,232,000           |
+|CUS000431  |Erin Bond                |12,210,125           |
+|CUS000753  |Samantha Matthews        |13,444,875           |
+|CUS000459  |Kenneth Nelson           |14,606,000           |
+|CUS000224  |Mary Williams            |11,690,750           |
+|CUS000330  |Jennifer Price           |13,952,800           |
+|CUS000152  |Elizabeth Jones          |15,528,500           |
+|CUS000080  |Michael Allen            |14,816,100           |
+|CUS000522  |Jane Kidd                |12,537,500           |
+|CUS000887  |Christina Martin         |23,657,333.3333333333|
+|CUS000351  |Melinda Ray              |13,224,875           |
+|CUS000363  |Nicholas Tucker          |9,379,166.6666666667 |
+|CUS000496  |Kyle Wise                |18,110,400           |
+|CUS000981  |Albert Henderson         |12,569,875           |
+|CUS000093  |Joshua Holmes            |12,087,666.6666666667|
+|CUS000162  |Hayley Hayes             |16,973,333.3333333333|
+|CUS000766  |Pamela Jones             |24,204,000           |
+|CUS000977  |Dr. Tanner Nunez         |8,153,300            |
+|CUS000079  |Sarah Williams           |16,715,500           |
+|CUS000611  |Jared Nunez              |6,860,900            |
+|CUS000480  |William Huang            |9,919,800            |
+|CUS000267  |Steven Edwards           |13,346,500           |
+|CUS000740  |John Evans               |14,339,750           |
+|CUS000427  |Robert Hopkins           |11,659,285.7142857143|
+|CUS000240  |Frances House            |3,714,500            |
+|CUS000865  |Aaron Howe               |15,089,333.3333333333|
+|CUS000552  |Brianna Price            |16,643,333.3333333333|
+|CUS000629  |Heather Morales          |8,335,375            |
+|CUS000780  |John Dunn                |11,346,071.4285714286|
+|CUS000546  |Dylan White              |9,719,166.6666666667 |
+|CUS000042  |Sharon Baker             |13,947,642.8571428571|
+|CUS000957  |Andrea Smith             |17,781,000           |
+|CUS000312  |Anna Brown               |14,236,125           |
+|CUS000231  |Bryce Kelly              |7,479,250            |
+|CUS000666  |Justin Ramirez           |12,253,062.5         |
+|CUS000158  |Adriana Mccoy            |7,862,000            |
+|CUS000991  |Thomas Mitchell          |9,283,200            |
+|CUS000415  |Jillian Rivera           |11,620,357.1428571429|
+|CUS000948  |Andrew Thomas            |6,798,625            |
+|CUS000820  |David Ray                |9,984,062.5          |
+|CUS000482  |Teresa Harris            |15,019,250           |
+|CUS000136  |Mrs. Tammy Flynn         |7,918,250            |
+|CUS000521  |Zachary Parker           |14,748,833.3333333333|
+|CUS000963  |Heidi Harmon             |15,328,416.6666666667|
+|CUS000269  |Miss Heather West        |14,101,750           |
+|CUS000990  |Kristen Rose             |6,782,000            |
+|CUS000322  |Daniel Hernandez         |13,445,944.4444444444|
+|CUS000313  |Christopher Page         |23,803,000           |
+|CUS000541  |Larry Keller             |10,299,100           |
+|CUS000498  |Julie Marshall           |10,547,583.3333333333|
+|CUS000383  |Brett Richardson         |9,848,100            |
+|CUS000667  |Mrs. Kimberly Williams MD|7,164,700            |
+|CUS000465  |Karen Murray             |11,006,100           |
+|CUS000425  |Gregory Harris           |11,780,625           |
+|CUS000994  |Cameron Herring          |16,004,000           |
+|CUS000869  |Kim Fuller               |10,701,250           |
+|CUS000144  |Amanda Smith             |9,321,071.4285714286 |
+|CUS000506  |Kimberly Stewart DVM     |11,008,750           |
+|CUS000819  |Todd Hart                |12,301,357.1428571429|
+|CUS000446  |Stephanie Wright         |9,477,500            |
+|CUS000140  |Richard Kim              |17,700,875           |
+|CUS000368  |John Brown               |11,678,250           |
+|CUS000705  |Jake Medina              |10,037,375           |
+|CUS000296  |Jesse Rose               |17,300,000           |
+|CUS000318  |Julie Clark              |13,101,000           |
+|CUS000082  |William Holland          |12,236,000           |
+|CUS000213  |Ashley Russell           |29,129,250           |
+|CUS000145  |Nicole Smith             |13,748,187.5         |
+|CUS000917  |Jonathan Patel           |13,240,250           |
+|CUS000603  |Oscar Kelly              |11,353,000           |
+|CUS000217  |Kaylee Jacobs            |21,771,666.6666666667|
+|CUS000713  |Ashley Morris            |7,013,000            |
+|CUS000275  |Maria Diaz               |10,452,333.3333333333|
+|CUS000513  |Dawn Adams               |17,323,500           |
+|CUS000697  |Michael Miller           |5,500,000            |
+|CUS000114  |Michael Williams         |10,985,083.3333333333|
+|CUS000072  |Christina Mitchell       |15,524,666.6666666667|
+|CUS000374  |Todd West                |12,292,750           |
+|CUS000193  |Jerome Hernandez         |10,632,083.3333333333|
+|CUS000461  |Laura Walker             |10,478,625           |
+|CUS000095  |Maria Sanchez            |9,060,888.8888888889 |
+|CUS000188  |David Cole               |13,025,571.4285714286|
+|CUS000139  |Christina Strickland     |8,137,666.6666666667 |
+|CUS000614  |Nicole Washington        |13,801,500           |
+|CUS000404  |Edwin Giles              |14,488,500           |
+|CUS000218  |Darin Dean               |13,382,312.5         |
+|CUS000773  |Barbara Keller           |9,947,500            |
+|CUS000644  |John Meyer               |20,914,714.2857142857|
+|CUS000928  |Melissa Keller           |10,223,000           |
+|CUS000341  |Alec Schultz             |12,183,083.3333333333|
+|CUS000529  |Arthur Thomas            |8,275,250            |
+|CUS000736  |Gordon Rogers            |13,858,384.6153846154|
+|CUS000303  |Charles Brown            |15,461,142.8571428571|
+|CUS000604  |Nicolas Price            |5,464,833.3333333333 |
+|CUS000356  |Andrew Miranda           |6,618,125            |
+|CUS000836  |Katherine Gonzalez       |8,392,888.8888888889 |
+|CUS000111  |Mark Smith               |6,437,166.6666666667 |
+|CUS000298  |Richard May              |14,581,200           |
+|CUS000518  |Thomas Norman            |8,445,750            |
+|CUS000649  |Sabrina Berry            |20,110,500           |
+|CUS000403  |Stefanie Taylor          |14,034,000           |
+|CUS000007  |Michelle Brady           |16,776,200           |
+|CUS000025  |Joseph Potts             |10,605,928.5714285714|
+|CUS000519  |Todd Garrett             |9,330,333.3333333333 |
+|CUS000859  |Kristen Miller           |12,479,700           |
+|CUS000968  |Theresa Farrell          |12,029,000           |
+|CUS000068  |Caleb Ruiz               |15,754,000           |
+|CUS000096  |Allen Carter             |7,660,600            |
+|CUS000118  |Diana Sosa               |13,786,750           |
+|CUS000444  |Dr. Benjamin Sanchez     |11,023,200           |
+|CUS000635  |Patrick Franklin         |10,978,100           |
+|CUS000618  |Robert Nelson            |9,645,187.5          |
+|CUS000010  |Seth Kelly               |18,452,833.3333333333|
+|CUS000751  |Carl Roman               |17,495,100           |
+|CUS000670  |Sharon Young             |12,808,125           |
+|CUS000664  |Natalie Duarte           |10,566,125           |
+|CUS000914  |Cynthia Sanchez          |8,319,944.4444444444 |
+|CUS000523  |Wesley Turner            |14,971,857.1428571429|
+|CUS000036  |Sandra Vargas            |11,256,388.8888888889|
+|CUS000121  |Walter Gaines            |12,393,500           |
+|CUS000002  |Andrea Bernard           |12,838,111.1111111111|
+|CUS000906  |Dr. Heather Smith        |13,438,833.3333333333|
+|CUS000011  |Katrina Edwards          |9,508,833.3333333333 |
+|CUS000335  |William Robertson        |15,811,666.6666666667|
+|CUS000932  |Leah Morrow DDS          |8,196,000            |
+|CUS000129  |Elizabeth Baker          |6,035,000            |
+|CUS000421  |Linda Martinez           |15,211,666.6666666667|
+|CUS000222  |Ian Garcia               |6,680,500            |
+|CUS000263  |Kathleen Russell         |14,149,666.6666666667|
+|CUS000216  |Lori Salazar             |20,793,666.6666666667|
+|CUS000941  |Erik Murphy              |13,716,600           |
+|CUS000774  |Judith Cox               |7,403,833.3333333333 |
+|CUS000301  |Kimberly Pennington      |6,306,666.6666666667 |
+|CUS000837  |Steven Taylor            |13,409,611.1111111111|
+|CUS000953  |Michael Santana          |11,822,100           |
+|CUS000395  |Thomas Mendez            |8,552,166.6666666667 |
+|CUS000202  |Nicholas Wilson          |8,031,900            |
+|CUS000443  |Riley Roberts            |19,880,333.3333333333|
+|CUS000438  |Rebecca Rosales          |13,503,083.3333333333|
+|CUS000632  |Christine Krause         |8,713,100            |
+|CUS000051  |Andrea Keller            |10,696,166.6666666667|
+|CUS000982  |Joanne Clark             |14,548,000           |
+|CUS000944  |Laura Rhodes             |17,039,500           |
+|CUS000143  |Shawn Wilson             |7,933,500            |
+|CUS000893  |Alexander Tran           |12,089,571.4285714286|
+|CUS000209  |Shawn Perez              |6,288,000            |
+|CUS000663  |Melissa Dennis           |17,894,000           |
+|CUS000441  |Angel Barrera            |10,540,000           |
+|CUS000155  |Jared Lewis              |14,119,222.2222222222|
+|CUS000394  |Justin Turner            |9,940,875            |
+|CUS000360  |Julie Thornton           |10,502,400           |
+|CUS000783  |David Wolfe              |17,560,500           |
+|CUS000199  |Ashley Arellano          |12,883,375           |
+|CUS000028  |Jason Rivera             |12,445,142.8571428571|
+|CUS000606  |Valerie Valdez           |17,260,416.6666666667|
+|CUS000084  |Jamie Jones              |14,558,642.8571428571|
+|CUS000344  |Heidi Yu                 |9,374,500            |
+|CUS000712  |April Marsh              |7,057,500            |
+|CUS000278  |Brian Harris             |8,346,050            |
+|CUS000525  |Megan Wells              |10,546,388.8888888889|
+|CUS000396  |Victor Shaffer           |17,187,428.5714285714|
+|CUS000867  |Ryan Zhang               |12,424,642.8571428571|
+|CUS000701  |Wayne Rodriguez          |6,603,750            |
+|CUS000023  |Allison Jensen           |17,355,500           |
+|CUS000195  |Amanda Floyd             |11,834,416.6666666667|
+|CUS000634  |Amber Rosales            |3,661,000            |
+|CUS000163  |Dustin White MD          |8,420,600            |
+|CUS000784  |Sara Taylor              |2,319,833.3333333333 |
+|CUS000729  |Larry Jackson            |8,148,800            |
+|CUS000778  |Brianna Joyce            |9,360,875            |
+|CUS000804  |Mrs. Emma Randall        |12,525,500           |
+|CUS000379  |Holly Fischer            |9,825,666.6666666667 |
+|CUS000248  |Christian Clark          |17,070,166.6666666667|
+|CUS000045  |Tonya Wiley              |4,996,250            |
+|CUS000577  |Justin Hamilton          |10,692,400           |
+|CUS000768  |Emily Wright             |12,317,750           |
+|CUS000838  |Nicole Clark             |17,505,888.8888888889|
+|CUS000656  |Sara Stafford            |16,877,400           |
+|CUS000452  |Megan Kirk               |12,622,500           |
+|CUS000782  |Anthony Bush             |14,826,500           |
+|CUS000107  |Christine Jones          |11,529,500           |
+|CUS000925  |Suzanne Lowery           |12,206,400           |
+|CUS000696  |Richard Jacobs           |13,443,928.5714285714|
+|CUS000860  |Jamie Hall               |16,520,100           |
+|CUS000594  |Jordan Wall              |8,129,333.3333333333 |
+|CUS000817  |Keith Cannon             |10,038,750           |
+|CUS000683  |Lisa Stevens             |13,108,900           |
+|CUS000698  |Katherine Williams PhD   |10,832,083.3333333333|
+|CUS000004  |Linda Martin             |14,846,000           |
+|CUS000543  |Rita Rodriguez           |15,369,916.6666666667|
+|CUS000255  |Rebecca Washington       |10,585,625           |
+|CUS000731  |Tyler Phillips           |8,019,200            |
+|CUS000380  |Maria West               |13,349,500           |
+|CUS000076  |Melissa Howell           |21,962,500           |
+|CUS000399  |Dr. Alex Grant           |15,214,071.4285714286|
+|CUS000608  |Megan Kim                |12,871,000           |
+|CUS000822  |Andrew Haynes            |10,985,062.5         |
+|CUS000580  |Elizabeth Payne          |6,680,416.6666666667 |
+|CUS000583  |Frank Stephens           |16,185,642.8571428571|
+|CUS000412  |Nicholas Castillo        |7,423,000            |
+|CUS000475  |Carla Lee                |20,513,000           |
+|CUS000702  |David Mason              |9,095,333.3333333333 |
+|CUS000824  |Margaret Dyer            |6,443,666.6666666667 |
+|CUS000637  |Wendy Bridges            |12,444,625           |
+|CUS000533  |Stephanie Figueroa       |14,237,375           |
+|CUS000151  |Danny Snyder             |10,241,642.8571428571|
+|CUS000243  |Jeffery Miles            |6,184,500            |
+|CUS000411  |Steven Clements          |12,478,214.2857142857|
+|CUS000921  |Ryan Rasmussen           |7,500,250            |
+|CUS000005  |Justin Frey              |17,246,833.3333333333|
+|CUS000628  |Kelly Lambert            |11,693,500           |
+|CUS000915  |Corey King               |11,857,166.6666666667|
+|CUS000549  |Kenneth King MD          |8,156,333.3333333333 |
+|CUS000800  |Allison Schultz          |17,666,166.6666666667|
+|CUS000586  |John Allen               |10,216,500           |
+|CUS000317  |James Hunter             |11,403,416.6666666667|
+|CUS000830  |Sandra Zavala            |19,160,000           |
+|CUS000802  |Megan Farrell            |7,590,625            |
+|CUS000182  |William Harris           |8,775,666.6666666667 |
+|CUS000215  |Stacey Carpenter         |6,162,833.3333333333 |
+|CUS000453  |Kelly Salazar            |14,041,300           |
+|CUS000794  |Tyler Decker DDS         |13,006,333.3333333333|
+|CUS000112  |Jill Barr                |12,281,500           |
+|CUS000450  |Lacey Knight             |10,899,166.6666666667|
+|CUS000555  |Susan Robinson           |12,656,000           |
+|CUS000875  |Catherine Long           |6,292,400            |
+|CUS000904  |Meredith Aguilar         |15,085,000           |
+|CUS000104  |Jacob Aguirre            |15,654,375           |
+|CUS000685  |Andrew Cross             |9,435,000            |
+|CUS000429  |John Edwards             |7,985,450            |
+|CUS000238  |Michael Doyle            |10,919,875           |
+|CUS000762  |Brenda Matthews          |14,585,500           |
+|CUS000207  |Jennifer Hayes           |12,340,666.6666666667|
+|CUS000700  |Rachael Stevens          |10,035,800           |
+|CUS000189  |Keith Wagner             |11,509,388.8888888889|
+|CUS000814  |Alyssa Castro            |16,029,083.3333333333|
+|CUS000681  |Jessica Johnson          |12,101,800           |
+|CUS000835  |Angela Doyle             |14,181,875           |
+|CUS000655  |Richard Thompson         |19,019,700           |
+|CUS000117  |Mary Pennington          |8,371,500            |
+|CUS000907  |Diana Lane               |10,503,750           |
+|CUS000576  |Sarah Davis              |10,458,416.6666666667|
+|CUS000899  |Nancy Jones              |6,064,000            |
+|CUS000228  |Brian Hunt               |17,251,333.3333333333|
+|CUS000385  |Adam Ruiz                |11,335,000           |
+|CUS000626  |Ian Miller               |6,356,400            |
+|CUS000514  |John Hart                |11,093,250           |
+|CUS000369  |Angela Martinez          |13,970,833.3333333333|
+|CUS000268  |Evan Newman              |15,552,000           |
+|CUS000014  |James Miller             |11,369,500           |
+|CUS000790  |Eric Lee                 |10,459,000           |
+|CUS000509  |Dorothy Campbell         |15,031,800           |
+|CUS000214  |David Gibson             |10,597,125           |
+|CUS000725  |Laura Nelson             |8,037,000            |
+|CUS000342  |Emily Downs              |16,668,125           |
+|CUS000116  |Evan Martinez            |14,627,200           |
+|CUS000293  |Rachel Hardin            |11,799,666.6666666667|
+|CUS000417  |Jacob Hall               |12,061,000           |
+|CUS000791  |Rebekah Chan PhD         |7,784,400            |
+|CUS000995  |Anthony Buck             |11,353,666.6666666667|
+|CUS000765  |Dustin Hurst             |12,935,200           |
+|CUS000743  |Jessica Little           |12,350,055.5555555556|
+|CUS000846  |Melinda Koch             |18,852,500           |
+|CUS000159  |Victoria Guzman          |9,582,142.8571428571 |
+|CUS000951  |Christina Nguyen         |11,136,700           |
+|CUS000308  |Matthew Miller           |15,993,000           |
+|CUS000511  |Megan Burnett            |5,973,166.6666666667 |
+|CUS000910  |Kevin Peck               |10,744,000           |
+|CUS000737  |Jessica Bell             |13,759,583.3333333333|
+|CUS000134  |Sarah King               |15,880,857.1428571429|
+|CUS000323  |Mary Hernandez           |17,443,700           |
+|CUS000101  |Thomas Pope MD           |10,506,000           |
+|CUS000945  |Russell Mccoy            |11,481,350           |
+|CUS000154  |April Jones              |16,146,333.3333333333|
+|CUS000410  |Jessica Burns            |12,057,625           |
+|CUS000408  |Kristen Smith            |8,769,590.9090909091 |
+|CUS000873  |Casey Mcpherson          |14,945,875           |
+|CUS000805  |Jennifer Henderson       |13,692,250           |
+|CUS000530  |Virginia Norman          |6,925,000            |
+|CUS000148  |Jordan Thomas            |14,044,700           |
+|CUS000119  |Travis Vazquez           |11,560,277.7777777778|
+|CUS000660  |Patricia Campos PhD      |11,854,500           |
+|CUS000978  |Caleb Walker             |9,272,714.2857142857 |
+|CUS000127  |Nathaniel Roth           |13,183,750           |
+|CUS000388  |Tammy Brown              |11,322,222.2222222222|
+|CUS000803  |Rita Walker              |4,678,357.1428571429 |
+|CUS000053  |Julie Carson             |10,788,625           |
+|CUS000536  |Michael Maddox           |6,575,000            |
+|CUS000503  |Jason Warren             |19,696,785.7142857143|
+|CUS000384  |Amber Merritt            |11,662,571.4285714286|
+|CUS000554  |Mrs. Karen Montgomery    |14,354,375           |
+|CUS000654  |Jessica Thompson         |8,361,500            |
+|CUS000187  |Chelsea Snyder           |18,678,416.6666666667|
+|CUS000993  |Joel Barrett             |13,067,214.2857142857|
+|CUS000694  |Veronica Pena            |3,723,000            |
+|CUS000857  |Megan Dominguez          |18,240,500           |
+|CUS000818  |Elizabeth Cox            |9,180,400            |
+|CUS000665  |Robert Clayton           |5,106,500            |
+|CUS000845  |Gary Montgomery          |8,182,500            |
+|CUS000030  |Patricia Lopez           |12,640,714.2857142857|
+|CUS000456  |Sabrina Jackson          |11,165,166.6666666667|
+|CUS000348  |Donald Meadows           |19,877,700           |
+|CUS000688  |David White              |15,442,750           |
+|CUS000099  |Edward Hendricks         |15,144,250           |
+|CUS000708  |Angela Elliott           |6,986,250            |
+|CUS000745  |Jessica Thomas           |11,128,571.4285714286|
+|CUS000643  |Ryan Walker              |11,735,416.6666666667|
+|CUS000676  |Lindsey Rice             |17,969,833.3333333333|
+|CUS000133  |Jonathan Harmon          |17,747,000           |
+|CUS000909  |Joseph Martin            |6,406,416.6666666667 |
+|CUS000715  |Charles Johnson          |13,080,700           |
+|CUS000605  |Charlene Zhang           |8,243,000            |
+|CUS000678  |Marcus Casey             |2,626,000            |
+|CUS000447  |Cindy Barrett            |17,978,875           |
+|CUS000516  |Lindsey Salas            |19,503,500           |
+|CUS000913  |Carl Marsh               |10,324,500           |
+|CUS000883  |Andre Hernandez          |6,806,900            |
+|CUS000903  |Bradley Durham           |9,993,600            |
+|CUS000105  |Michelle Sanders         |12,642,857.1428571429|
+|CUS000251  |Nancy Kim                |5,513,000            |
+|CUS000490  |Carol Burgess            |10,398,166.6666666667|
+|CUS000863  |Cassidy Riddle           |8,100,500            |
+|CUS000770  |Amy Gill                 |9,331,125            |
+|CUS000612  |Samuel Hall              |10,485,416.6666666667|
+|CUS000596  |Diane Cole               |11,473,571.4285714286|
+|CUS000074  |Vanessa Brown            |9,249,166.6666666667 |
+|CUS000789  |Mary Lee                 |14,499,500           |
+|CUS000767  |Kevin Ortiz              |13,545,333.3333333333|
+|CUS000689  |William Cook             |11,430,600           |
+|CUS000505  |Annette Reese            |12,025,642.8571428571|
+|CUS000758  |Joshua Riley             |15,179,928.5714285714|
+|CUS000264  |James Hill               |8,849,600            |
+|CUS000565  |Anna Alvarado            |16,600,000           |
+|CUS000353  |Lori Henderson           |10,630,500           |
+|CUS000890  |James Novak              |12,169,250           |
+|CUS000502  |Barbara Scott            |10,788,250           |
+|CUS000983  |Jessica Lambert          |10,045,500           |
+|CUS000579  |Rebekah Williams         |24,768,500           |
+|CUS000206  |Wendy Berger             |16,328,571.4285714286|
+|CUS000273  |Jessica Reynolds         |12,996,250           |
+|CUS000309  |Jillian Gray             |12,320,666.6666666667|
+|CUS000277  |John Matthews            |10,878,166.6666666667|
+|CUS000772  |James Decker             |9,929,833.3333333333 |
+|CUS000247  |John Snyder              |17,147,300           |
+|CUS000315  |Amanda Ford              |13,402,000           |
+|CUS000304  |Roberto Moon             |15,943,333.3333333333|
+|CUS000316  |Jacqueline Smith         |15,268,000           |
+|CUS000744  |Gail Mendoza             |13,379,875           |
+|CUS000362  |Cassandra Dennis         |20,128,200           |
+|CUS000691  |Kevin Rocha              |16,816,500           |
+|CUS000888  |Rebekah Harrison         |12,914,700           |
+|CUS000389  |Mackenzie Mitchell       |12,344,333.3333333333|
+|CUS000440  |Joy Thomas               |11,523,916.6666666667|
+|CUS000755  |Daniel Hall              |11,404,916.6666666667|
+|CUS000950  |Richard Gardner          |3,224,833.3333333333 |
+|CUS000085  |Meghan Mcpherson MD      |8,418,000            |
+|CUS000497  |Christian Taylor         |9,810,000            |
+|CUS000640  |Thomas Lopez             |15,457,750           |
+|CUS000998  |Anthony Fields           |15,114,250           |
+|CUS000905  |Kelly Brooks             |18,534,000           |
+|CUS000809  |Suzanne Roman            |8,218,250            |
+|CUS000831  |Michael Carson           |14,170,375           |
+|CUS000588  |Mark Underwood           |11,535,666.6666666667|
+|CUS000524  |Christine Wilson         |12,063,916.6666666667|
+|CUS000834  |Kevin Wilson             |9,411,666.6666666667 |
+|CUS000294  |Zachary Reilly           |10,712,750           |
+|CUS000510  |Jacob Thompson           |10,723,125           |
+|CUS000730  |Meredith Carter          |18,142,187.5         |
+|CUS000929  |Whitney Schmidt          |7,279,000            |
+|CUS000372  |Melissa Davis            |9,969,800            |
+|CUS000167  |Paul Lane                |8,404,437.5          |
+|CUS000792  |Joseph Harris            |5,167,625            |
+|CUS000328  |Raymond Moore            |6,930,000            |
+|CUS000397  |Susan Mercado            |7,977,900            |
+|CUS000690  |Mary Bruce               |16,564,166.6666666667|
+|CUS000539  |Chelsea Bell             |20,318,600           |
+|CUS000578  |Jennifer Leblanc         |13,290,250           |
+|CUS000671  |Rachel Carney            |20,104,625           |
+|CUS000221  |James Golden             |10,111,100           |
+|CUS000366  |Carolyn Gomez            |16,343,800           |
+|CUS000567  |Michael Chaney           |7,924,833.3333333333 |
+|CUS000501  |Renee Lucas              |2,632,500            |
+|CUS000200  |Jeremy Turner            |15,166,750           |
+|CUS000520  |Marissa Gregory          |15,462,250           |
+|CUS000889  |Angela White             |9,301,800            |
+|CUS000686  |Dawn Johnson             |11,960,000           |
+|CUS000185  |Monica Jordan            |14,547,428.5714285714|
+|CUS000677  |Stacy Marshall           |5,904,000            |
+|CUS000997  |Julia Chandler           |9,317,625            |
+|CUS000896  |Victoria Anderson        |12,118,750           |
+|CUS000166  |Lisa Medina              |11,724,750           |
+|CUS000314  |Benjamin Roth            |12,873,500           |
+|CUS000653  |Bruce Russell            |14,126,833.3333333333|
+|CUS000874  |Becky Johnson            |12,778,642.8571428571|
+|CUS000413  |John Reeves              |16,459,000           |
+|CUS000122  |Troy Curtis              |8,629,750            |
+|CUS000038  |Nicole Clark             |8,496,928.5714285714 |
+|CUS000237  |Molly Weber              |13,842,000           |
+|CUS000420  |Hayley Anderson          |13,976,500           |
+|CUS000180  |Travis Rodriguez         |10,085,800           |
+|CUS000992  |Leah Murphy              |12,270,500           |
+|CUS000070  |Daniel Wallace           |14,996,666.6666666667|
+|CUS000376  |Leonard Trujillo         |4,561,333.3333333333 |
+|CUS000175  |Laura Wilson             |13,372,916.6666666667|
+|CUS000052  |Michael Smith            |12,087,583.3333333333|
+|CUS000280  |Mark Woods               |15,760,857.1428571429|
+|CUS000647  |Jessica Cole             |19,525,500           |
+|CUS000934  |Ronald Mccormick Jr.     |13,852,500           |
+|CUS000722  |Kristin Martin           |17,806,900           |
+|CUS000842  |Stephanie Tapia          |11,219,750           |
+|CUS000357  |Alex Collins             |6,543,700            |
+|CUS000879  |Samantha Blackwell       |13,066,400           |
+|CUS000436  |Annette Robinson         |7,164,166.6666666667 |
+|CUS000659  |David Jensen             |10,557,666.6666666667|
+|CUS000976  |Bryan Holt               |17,110,875           |
+|CUS000871  |Lisa Small               |18,204,125           |
+|CUS000853  |Diana Fisher             |5,184,000            |
+|CUS000006  |Keith Liu                |6,673,166.6666666667 |
+|CUS000572  |Suzanne Briggs MD        |15,038,000           |
+|CUS000551  |Margaret Alexander       |14,732,500           |
+|CUS000392  |Sabrina Calhoun          |7,428,000            |
+|CUS000234  |Alexis Sanchez           |8,394,750            |
+|CUS000470  |Kelly Zimmerman          |14,990,400           |
+|CUS000515  |Bryan Stevens            |8,822,750            |
+|CUS000150  |Eileen Guerra            |7,843,750            |
+|CUS000326  |Lauren Bennett           |19,760,666.6666666667|
+|CUS000861  |Alejandro Howard         |12,258,083.3333333333|
+|CUS000473  |Jeffrey Williams         |14,580,000           |
+|CUS000885  |Tammy Williams           |9,913,500            |
+|CUS000039  |George Cook              |10,603,000           |
+|CUS000574  |Lee Merritt              |12,743,000           |
+|CUS000742  |Tiffany Reed             |13,754,300           |
+|CUS000916  |Robert Lopez             |13,878,300           |
+|CUS000675  |Steven Weiss             |9,845,666.6666666667 |
+|CUS000832  |Michelle Allen           |7,132,875            |
+|CUS000157  |Evan Taylor              |14,349,800           |
+|CUS000212  |Justin Molina            |9,203,500            |
+|CUS000584  |Michelle Olson           |11,070,250           |
+|CUS000331  |Kayla Martin             |13,281,000           |
+|CUS000984  |Courtney Gonzales        |11,475,625           |
+|CUS000333  |Alicia Wells             |7,066,428.5714285714 |
+|CUS000639  |Devin Curry              |7,735,300            |
+|CUS000015  |Mr. Juan Woods           |15,241,875           |
+|CUS000057  |Patricia Stewart         |15,255,416.6666666667|
+|CUS000359  |Billy Turner             |4,029,125            |
+|CUS000947  |Jeremy Ramsey            |12,242,625           |
+|CUS000169  |Michael Rose             |12,644,562.5         |
+|CUS000526  |Mark Dunn                |12,807,500           |
+|CUS000049  |Phillip Barajas          |18,321,833.3333333333|
+|CUS000160  |Donald Brady             |13,953,500           |
+|CUS000563  |John Williams            |16,650,333.3333333333|
+|CUS000544  |Maria Farmer             |7,894,500            |
+|CUS000083  |Sarah Johnson            |11,396,000           |
+|CUS000821  |Shawn Alvarado           |11,353,333.3333333333|
+|CUS000081  |Michelle Valentine       |13,303,000           |
+|CUS000352  |Maria Martinez           |23,254,666.6666666667|
+|CUS000146  |Emily Thomas             |7,160,500            |
+|CUS000176  |Angela Taylor            |9,778,785.7142857143 |
+|CUS000564  |Mr. Cody Mcclure         |14,295,500           |
+|CUS000054  |Ashley Porter            |14,180,583.3333333333|
+|CUS000711  |Mr. Jeffrey Jackson MD   |14,347,583.3333333333|
+|CUS000602  |Rachel Johnson           |7,542,000            |
+|CUS000468  |Brandon Berry            |15,194,750           |
+|CUS000979  |Gabrielle Evans          |11,680,500           |
+|CUS000434  |Maria Calderon           |10,979,636.3636363636|
+|CUS000307  |Kelly Mullins            |12,514,875           |
+|CUS000623  |Samuel Pitts             |7,515,000            |
+|CUS000266  |Casey Wang               |8,367,416.6666666667 |
+|CUS000829  |Christine Hernandez      |8,657,300            |
+|CUS000892  |Lisa Smith               |13,623,125           |
+|CUS000668  |Benjamin York            |17,118,500           |
+|CUS000561  |James Peters             |6,804,166.6666666667 |
+|CUS000205  |Sarah Brooks             |18,000,166.6666666667|
+|CUS000022  |David Hill               |9,351,562.5          |
+|CUS000346  |Deborah Hughes           |5,524,600            |
+|CUS000337  |Paula Green              |7,295,250            |
+|CUS000547  |Elizabeth Morgan         |12,642,200           |
+|CUS000350  |Jessica Nguyen           |16,445,937.5         |
+|CUS000108  |Michelle Blackwell       |11,752,562.5         |
+|CUS000239  |Michele Hernandez        |13,055,000           |
+|CUS000065  |Dr. Lauren Finley        |6,996,750            |
+|CUS000241  |Matthew Robbins          |13,076,416.6666666667|
+|CUS000058  |Sherri Hamilton          |10,723,250           |
+|CUS000261  |Donna Hamilton           |12,870,000           |
+|CUS000223  |Margaret White           |12,093,900           |
+|CUS000806  |Sherry Olson             |14,754,833.3333333333|
+|CUS000367  |Erika Adams              |17,275,333.3333333333|
+|CUS000985  |Jamie Wilson             |14,031,687.5         |
+|CUS000365  |Virginia Fry             |15,637,214.2857142857|
+|CUS000235  |Craig Lang               |13,751,000           |
+|CUS000032  |Daryl Dixon              |13,152,500           |
+|CUS000927  |Jeffrey Bailey           |8,983,333.3333333333 |
+|CUS000839  |Travis Kennedy           |3,006,000            |
+|CUS000599  |Angela Valenzuela        |13,490,500           |
+|CUS000062  |Mrs. Gail Hawkins MD     |21,951,333.3333333333|
+|CUS000728  |Kyle Kim                 |13,001,500           |
+|CUS000073  |Alexander Jones          |9,629,750            |
+|CUS000009  |Jason Bentley            |15,381,000           |
+|CUS000757  |Renee Travis             |13,125,125           |
+|CUS000891  |Zachary Barnes           |13,853,785.7142857143|
+|CUS000336  |Wayne Martinez           |15,951,954.5454545455|
+|CUS000707  |Frank Perez              |13,209,300           |
+|CUS000517  |Melinda Chaney           |15,143,071.4285714286|
+|CUS000055  |Sandra Love              |7,875,928.5714285714 |
+|CUS000464  |Sharon Grimes            |11,565,818.1818181818|
+|CUS000149  |Ryan Williams            |22,135,500           |
+|CUS000386  |Janice Phillips          |4,661,750            |
+|CUS000840  |Terri Burns              |18,376,000           |
+|CUS000302  |Edwin Bowen              |10,108,500           |
+|CUS000851  |Wendy Davis              |16,675,500           |
+|CUS000970  |Alisha Long              |8,790,400            |
+|CUS000305  |Lisa Patterson           |14,775,250           |
+|CUS000881  |Barry Swanson            |30,297,500           |
+|CUS000387  |Brittany Barnes          |11,673,214.2857142857|
+|CUS000407  |Julie Neal               |11,156,000           |
+|CUS000165  |Francis Ryan             |16,600,642.8571428571|
+|CUS000630  |Anthony Taylor           |13,976,375           |
+|CUS000735  |Scott Meyer              |9,193,800            |
+|CUS000488  |Nicole Collins           |7,742,916.6666666667 |
+|CUS000658  |Anthony Henderson        |6,278,833.3333333333 |
+|CUS000225  |Michael Jenkins          |11,942,500           |
+|CUS000661  |Peter Caldwell           |16,051,700           |
+|CUS000703  |Christopher Henry MD     |12,340,916.6666666667|
+|CUS000349  |Bruce Brown              |10,583,000           |
+|CUS000141  |Crystal Hall             |8,363,388.8888888889 |
+|CUS000958  |Linda Walker             |16,700,333.3333333333|
+|CUS000220  |Maxwell Herman           |10,179,333.3333333333|
+|CUS000358  |Spencer Walsh            |11,532,166.6666666667|
+|CUS000405  |Roger Parker             |14,137,000           |
+|CUS000560  |Ashley Rocha             |13,718,428.5714285714|
+|CUS000940  |Alexis Shelton           |17,426,500           |
+|CUS000064  |Lisa Davila              |11,197,125           |
+|CUS000528  |Cody Skinner             |11,670,818.1818181818|
+|CUS000059  |Lauren Smith             |4,405,750            |
+|CUS000047  |James Campos             |7,392,800            |
+|CUS000018  |Michelle Collins         |17,405,312.5         |
+|CUS000252  |Pamela Long              |13,759,187.5         |
+|CUS000759  |Natasha Wright           |17,748,125           |
+|CUS000288  |Wesley Henderson         |11,580,250           |
+|CUS000935  |Robert Nelson            |11,349,300           |
+|CUS000961  |Casey Zamora             |11,495,083.3333333333|
+|CUS000760  |Bobby Ritter             |14,419,928.5714285714|
+|CUS000746  |Hector Payne             |12,870,583.3333333333|
+|CUS000852  |Alfred Hubbard           |15,651,958.3333333333|
+|CUS000026  |Deborah Valenzuela       |13,244,100           |
+|CUS000849  |Riley Le                 |13,237,571.4285714286|
+|CUS000575  |Jessica Marquez          |13,980,066.6666666667|
+|CUS000109  |Michael Hunter           |13,674,800           |
+|CUS000153  |Janice Thomas            |10,983,700           |
+|CUS000930  |Willie Faulkner          |10,177,055.5555555556|
+|CUS000926  |Bobby Miller             |14,514,583.3333333333|
+|CUS000233  |Heidi Garcia             |7,760,000            |
+|CUS000622  |James Bender             |11,793,375           |
+|CUS000230  |Robyn Cooley             |19,977,142.8571428571|
+|CUS000938  |Tracey Barry             |17,280,071.4285714286|
+|CUS000922  |Cynthia Miller           |12,500,500           |
+|CUS000194  |Jordan Riley             |11,385,500           |
+|CUS000507  |Anthony Rios             |3,843,000            |
+|CUS000716  |Leonard Barnes           |10,684,500           |
+|CUS000069  |Daniel Lucas             |8,279,750            |
+|CUS000591  |Jennifer Brooks          |16,286,000           |
+|CUS000866  |Tyler Nelson             |7,912,500            |
+|CUS000669  |Robert Hunter            |8,755,833.3333333333 |
+|CUS000481  |Lisa Aguilar             |9,454,000            |
+|CUS000284  |Deborah Davidson         |9,433,000            |
+|CUS000364  |Jacob Brown              |12,082,416.6666666667|
+|CUS000673  |Alexander Bishop         |8,502,055.5555555556 |
+|CUS000856  |Carl Hernandez           |7,033,666.6666666667 |
+|CUS000750  |Yesenia Wilson           |4,609,625            |
+|CUS000559  |Valerie Pace             |4,178,000            |
+|CUS000102  |James Solis              |9,840,000            |
+|CUS000642  |Sara Brooks              |12,923,500           |
+|CUS000254  |Jennifer Wilkerson       |6,298,500            |
+|CUS000115  |Ronald Hart              |12,882,250           |
+|CUS000183  |Christopher Stevenson    |10,901,166.6666666667|
+|CUS000706  |David Barber             |12,529,944.4444444444|
+|CUS000775  |Stephanie Scott          |12,090,833.3333333333|
+|CUS000001  |Glenda Crosby            |11,006,555.5555555556|
+|CUS000402  |Charles Singleton        |9,761,166.6666666667 |
+|CUS000476  |Jose Avery               |11,371,937.5         |
+|CUS000455  |Grace Maxwell            |4,111,500            |
+|CUS000324  |Joseph Bradley           |13,088,285.7142857143|
+|CUS000986  |Douglas Brooks           |11,914,900           |
+|CUS000980  |Shawn Jensen             |8,834,833.3333333333 |
+|CUS000777  |Melinda Hardy            |5,724,000            |
+|CUS000799  |Jennifer Thomas          |10,249,125           |
+|CUS000462  |Jessica Acosta           |7,774,875            |
+|CUS000996  |Frank Morgan             |9,084,833.3333333333 |
+|CUS000300  |John Henry               |14,811,500           |
+|CUS000540  |Brooke Blevins           |16,445,833.3333333333|
+|CUS000210  |Amanda Maynard           |10,716,428.5714285714|
+|CUS000847  |Nicole Hobbs             |9,061,000            |
+|CUS000289  |David Bennett            |12,523,388.8888888889|
+|CUS000785  |Michelle Hale            |12,339,125           |
+|CUS000320  |David Smith              |12,318,500           |
+|CUS000569  |Michelle Patel           |16,658,916.6666666667|
+|CUS000319  |Pamela Oneill            |8,578,750            |
+|CUS000433  |Johnathan Turner         |9,154,000            |
+|CUS000971  |Seth Donaldson           |14,503,500           |
+|CUS000627  |Michelle Jackson         |9,657,750            |
+|CUS000171  |Teresa Kelly             |13,836,437.5         |
+|CUS000645  |Jackie Humphrey          |12,425,812.5         |
+|CUS000126  |Christopher Collins MD   |9,917,000            |
+|CUS000035  |Phillip Smith            |8,408,250            |
+|CUS000763  |Tracy Allen              |12,580,916.6666666667|
+|CUS000771  |Connie Barker            |14,758,916.6666666667|
+|CUS000270  |Mrs. Rebecca Powell      |13,623,166.6666666667|
+|CUS000192  |Jennifer Giles           |10,117,200           |
+|CUS000393  |Elizabeth Campbell       |14,065,916.6666666667|
+|CUS000469  |Roger Thomas             |9,060,583.3333333333 |
+|CUS000734  |Jason Estrada DVM        |18,673,166.6666666667|
+|CUS000710  |Katie Smith              |15,601,200           |
+|CUS000472  |Carol Johnson            |9,700,687.5          |
+|CUS000184  |Alicia Hansen            |16,011,285.7142857143|
+|CUS000850  |Carol Reeves             |12,628,666.6666666667|
+|CUS000274  |Alexis Norton            |19,896,166.6666666667|
+|CUS000581  |Amanda Wade              |14,226,272.7272727273|
+|CUS000933  |Emily Orr                |8,490,000            |
+|CUS000321  |Tracy Fowler             |8,086,200            |
+|CUS000816  |Patricia King            |11,680,166.6666666667|
+|CUS000286  |Tara Simmons             |19,129,250           |
+|CUS000086  |Linda Higgins            |5,713,333.3333333333 |
+|CUS000920  |Linda Ward               |18,744,750           |
+|CUS000454  |James Mendez             |7,696,875            |
+|CUS000723  |Eric Hernandez           |13,905,000           |
+|CUS000582  |Billy Hopkins            |14,618,400           |
+|CUS000219  |Katrina Yoder            |11,082,944.4444444444|
+|CUS000682  |James Schultz            |15,153,666.6666666667|
+|CUS000609  |Christopher Cummings     |18,512,750           |
+|CUS000259  |Craig Thornton           |12,525,333.3333333333|
+|CUS000034  |Tracy White              |17,068,285.7142857143|
+|CUS000339  |Richard Hebert           |14,468,875           |
+|CUS000776  |David Harris             |5,876,666.6666666667 |
+|CUS000621  |Joshua Waters            |24,788,900           |
+|CUS000499  |Michael Hernandez        |16,689,500           |
+|CUS000534  |Dawn Parsons             |7,253,125            |
+|CUS000562  |Terri Parker             |7,779,250            |
+|CUS000864  |Kevin Jarvis             |13,666,550           |
+|CUS000795  |Benjamin Torres          |6,830,000            |
+|CUS000060  |Christopher Lane         |22,161,375           |
+|CUS000177  |Lisa Martinez            |5,590,750            |
+|CUS000648  |Timothy Donaldson        |14,815,000           |
+|CUS000120  |Brenda Montgomery        |20,107,500           |
+|CUS000619  |Jennifer Malone          |11,765,300           |
+|CUS000437  |Carol Carey              |18,261,500           |
+|CUS000872  |William Morris           |5,551,750            |
+|CUS000825  |Walter Perez             |13,821,625           |
+|CUS000624  |Angela Kelly             |16,580,500           |
+|CUS000489  |Lisa Wells               |11,159,800           |
+|CUS000880  |Joseph Smith             |9,270,666.6666666667 |
+|CUS000646  |Ashley Small             |16,610,950           |
+|CUS000156  |Kelly Willis             |28,950,000           |
+|CUS000537  |Teresa Bender            |18,663,500           |
+|CUS000172  |Lisa Ramirez             |10,671,375           |
+|CUS000242  |David Pace               |9,901,583.3333333333 |
+|CUS000811  |Leslie Armstrong         |14,672,625           |
+|CUS000894  |Stacey Scott             |9,179,071.4285714286 |
+|CUS000558  |Tammy Burke              |13,601,000           |
+|CUS000484  |Timothy Key              |15,701,250           |
+|CUS000401  |Michael Wilson           |15,244,625           |
+|CUS000236  |Brianna Atkins           |10,265,700           |
+|CUS000787  |Joshua Stephenson        |18,929,750           |
+|CUS000426  |Andrew Potter            |10,254,800           |
+|CUS000311  |Kimberly Garcia          |11,536,400           |
+|CUS000256  |Bryan Drake              |14,303,000           |
+|CUS000652  |Ms. Lisa Johnson         |10,705,300           |
+|CUS000478  |Lori Johnson             |9,189,222.2222222222 |
+|CUS000046  |Danielle Mcdonald        |24,737,000           |
+|CUS000641  |Katrina Gates            |16,565,000           |
+|CUS000075  |Kevin Bowman             |20,021,000           |
+|CUS000040  |Chad Moore               |6,464,000            |
+|CUS000013  |Austin Potts             |17,174,200           |
+|CUS000137  |Makayla Jenkins          |10,602,375           |
+|CUS000813  |Joel Howell              |11,157,500           |
+|CUS000113  |David Aguirre            |13,676,400           |
+|CUS000548  |Justin Kim               |13,094,666.6666666667|
+|CUS000287  |Michele Dixon            |13,613,038.4615384615|
+|CUS000693  |Meghan Nguyen            |9,135,416.6666666667 |
+|CUS000900  |Carolyn Davis            |9,888,700            |
+|CUS000946  |John Singh               |10,867,166.6666666667|
+|CUS000878  |Tanner Gates             |7,667,571.4285714286 |
+|CUS000855  |Mrs. Tina Murphy         |8,284,900            |
+|CUS000479  |Carolyn Lewis            |5,658,375            |
+|CUS000325  |Nicole Green             |10,076,650           |
+|CUS000764  |Alan Turner              |12,465,500           |
+|CUS000720  |Danielle Smith           |15,019,000           |
+|CUS000486  |Valerie Wilkins          |17,835,062.5         |
+|CUS000164  |Tanya Fox                |19,904,000           |
+|CUS000098  |Angela Evans             |7,380,875            |
+|CUS000508  |Nicholas Mccoy           |8,319,000            |
+|CUS000056  |Sarah Munoz              |13,397,333.3333333333|
+|CUS000327  |Alexandra Thompson       |7,946,583.3333333333 |
+|CUS000295  |Melissa Nichols          |10,185,000           |
+|CUS000801  |Scott Rose               |14,170,000           |
+|CUS000373  |Natasha Farrell          |6,652,000            |
+|CUS000553  |Steven Berg              |6,849,500            |
+|CUS000495  |James Berger             |15,424,944.4444444444|
+|CUS000031  |Greg Potter              |13,423,666.6666666667|
+|CUS000650  |Steven Vance             |8,113,500            |
+|CUS000598  |Katherine Sullivan       |9,657,000            |
+|CUS000858  |Valerie Camacho          |11,101,000           |
+|CUS000276  |Nicole Jenkins           |14,011,272.7272727273|
+|CUS000962  |Eric Lewis               |13,914,900           |
+|CUS000197  |Michele Thomas           |13,880,300           |
+|CUS000471  |Joshua Mays              |16,492,750           |
+|CUS000190  |Timothy Taylor           |9,360,214.2857142857 |
+|CUS000375  |Gerald Horne             |11,107,833.3333333333|
+|CUS000988  |Miguel David             |11,412,500           |
+|CUS000037  |Raymond George           |12,555,916.6666666667|
+|CUS000281  |John Hunter              |7,696,833.3333333333 |
+|CUS000704  |Billy Lane               |11,559,812.5         |
+|CUS000088  |Kristen Singleton        |9,284,250            |
+|CUS000969  |Damon Bailey             |12,819,200           |
+|CUS000999  |Darlene Mccormick        |10,927,611.1111111111|
+|CUS000965  |Erica Green              |8,651,166.6666666667 |
+|CUS000512  |Erik Chavez              |9,279,333.3333333333 |
+|CUS000027  |Dale Jackson             |13,152,285.7142857143|
+|CUS000077  |Kristina Johnson         |13,572,000           |
+|CUS000779  |Gregory Garcia           |16,732,000           |
+|CUS000989  |Tracy Campbell           |16,945,100           |
+|CUS000918  |William Hale             |3,285,000            |
+|CUS000460  |Chad Chambers            |13,141,000           |
+|CUS000191  |Kimberly Horne           |8,871,000            |
+|CUS000354  |Hannah Holloway          |14,019,375           |
+|CUS000466  |Sharon Hart              |15,522,500           |
+|CUS000556  |Brittany Harris          |15,178,333.3333333333|
+|CUS000967  |Aaron Wright             |13,008,125           |
+|CUS000271  |Cindy Blair              |16,060,850           |
+|CUS000291  |Rebecca Johnson          |11,464,500           |
+|CUS000587  |Nicole Pham              |15,374,375           |
+|CUS000721  |Matthew Smith            |13,189,000           |
+|CUS000451  |Jean Anderson            |10,014,550           |
+|CUS000186  |Stephanie Hughes         |11,746,125           |
+|CUS000428  |Matthew Goodwin          |10,763,250           |
+|CUS000854  |David Campbell           |16,211,000           |
+|CUS000378  |Susan Vargas             |4,891,500            |
+|CUS000272  |Lisa Gray                |7,878,166.6666666667 |
+|CUS000106  |Kenneth Lozano           |16,160,166.6666666667|
+|CUS000487  |David Jones              |10,868,875           |
+|CUS000063  |Diana Phelps             |17,205,000           |
+|CUS000435  |Stephanie Berg           |3,189,250            |
+|CUS000178  |Madison Santiago         |14,288,500           |
+|CUS000960  |Susan Lyons              |12,488,916.6666666667|
+|CUS000877  |Joseph Mcgrath           |10,693,416.6666666667|
+|CUS000987  |Bryan Hamilton           |9,696,666.6666666667 |
+|CUS000538  |Laura Sweeney            |16,908,400           |
+|CUS000232  |Bryan Rose               |18,336,666.6666666667|
+|CUS000449  |Frank Hester             |6,314,125            |
+|CUS000253  |Jasmine Brown            |9,867,857.1428571429 |
+|CUS000130  |Susan Goodwin            |10,332,000           |
+|CUS000208  |Michelle Livingston      |6,942,750            |
+|CUS000557  |Joshua Mccoy             |9,296,000            |
+|CUS000727  |Robert Allen             |13,948,700           |
+|CUS000467  |Emily Taylor             |9,345,500            |
+|CUS000262  |Charles Riggs            |6,784,800            |
+|CUS000019  |Dustin Byrd              |3,947,666.6666666667 |
+|CUS000492  |Katelyn Sharp            |13,084,200           |
+|CUS000756  |Erik Jones MD            |6,791,500            |
+|CUS000719  |Charles Johnson          |11,736,750           |
+|CUS000833  |Kenneth Hall             |15,189,416.6666666667|
+|CUS000674  |Cristina Perez           |11,418,928.5714285714|
+|CUS000279  |Paige Reed               |11,122,000           |
+|CUS000246  |Benjamin Martin          |8,359,500            |
+|CUS000625  |Jacob Potter             |18,684,250           |
+|CUS000265  |Jasmine Carrillo         |18,629,333.3333333333|
+|CUS000285  |Kathy Rasmussen MD       |10,093,187.5         |
+|CUS000726  |Jonathan Hamilton        |14,786,625           |
+|CUS000862  |Daniel Dixon             |11,490,000           |
+|CUS000091  |Heather Garza            |14,289,750           |
+|CUS000955  |Joseph Diaz              |11,930,000           |
+|CUS000204  |Brittany Anderson        |7,903,333.3333333333 |
+|CUS000400  |Courtney Jennings        |9,460,000            |
+|CUS000371  |Brianna Beasley          |20,235,000           |
+|CUS000173  |Kenneth White            |17,758,500           |
+|CUS000843  |Mia Cowan                |21,934,500           |
+|CUS000409  |William Williams         |7,241,125            |
+|CUS000017  |Johnny Brown             |16,089,875           |

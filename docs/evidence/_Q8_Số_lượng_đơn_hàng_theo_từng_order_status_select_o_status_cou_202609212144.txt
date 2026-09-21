@@ -1,0 +1,7 @@
+|status   |count|
+|---------|-----|
+|confirmed|266  |
+|completed|3,880|
+|cancelled|246  |
+|pending  |147  |
+|shipped  |461  |
